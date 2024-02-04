@@ -1,0 +1,28 @@
+.bar {
+    background-color: #829399;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 250px 20px 250px;
+}
+
+.bar-button {
+    background-color: #f2f2f2;
+    color: #212529;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.bar-button:hover {
+    background-color: #e0e0e0;
+}
+
+.bar-button.active {
+    background-color: #212529;
+    color: #ffffff;
+}

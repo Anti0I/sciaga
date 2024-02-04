@@ -1,0 +1,42 @@
+.main {
+    margin: 50px;
+}
+
+.main > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main > h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main > h1::before {
+    content: "●";
+    margin-right: 5px;
+}
+
+
+.home > p {
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.home > h1 {
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+}
+
+.home > h1:hover {
+    transition: 0.5s;
+    letter-spacing: 7.5px;
+}
